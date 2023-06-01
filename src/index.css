@@ -1,5 +1,5 @@
 :root {
-    --azul: #3b82f6;
+    --verde: #16bf00;
     --blanco: #ffffff;
     --gris-claro: #f5f5f5;
     --gris: #94a3b8;
@@ -44,7 +44,7 @@ h2 {
 }
 
 header {
-    background-color: var(--azul);
+    background-color: var(--verde);
 }
 
 header h1 {
@@ -75,7 +75,7 @@ header h1 {
     color: var(--blanco);
     margin-bottom: 4rem;
     padding-bottom: 1rem;
-    border-bottom: 2px solid var(--azul);
+    border-bottom: 2px solid var(--verde);
 }
 .formulario .campo {
     display: grid;
@@ -83,7 +83,7 @@ header h1 {
 }
 
 .formulario label {
-    color: var(--azul);
+    color: var(--verde);
     font-size: 2.8rem;
     text-align: center;
     margin-bottom: 2rem;
@@ -99,7 +99,7 @@ header h1 {
     font-size: 1.6rem;
 }
 .formulario input[type="submit"] {
-    background-color: #1048a4;
+    background-color: #44e300;
     border: none;
     border-radius: 1rem;
     padding: 1rem;
@@ -119,7 +119,7 @@ header h1 {
     }
 }
 .formulario input[type="submit"]:hover {
-    background-color: #042a67;
+    background-color: #044d00;
     cursor: pointer;
 }
 
@@ -145,8 +145,6 @@ header h1 {
     background-color: var(--blanco);
     border-left: 5px solid #b91c1c;
     color: #b91c1c;
-}
-.alerta.success {
 }
 
 .contenedor {
@@ -212,11 +210,11 @@ header h1 {
 }
 .contenido-presupuesto span {
     font-weight: 900;
-    color: var(--azul);
+    color: var(--verde);
 }
 .reset-app {
     border: none;
-    background-color: #db2777;
+    background-color: red;
     padding: 1rem;
     width: 100%;
     text-align: center;
@@ -336,7 +334,7 @@ main {
 
 .modal {
     position: absolute;
-    background-color: rgb(0 0 0 / 0.92);
+    background-color: rgba(0, 0, 0, 0.866);
     top: 0;
     left: 0;
     right: 0;
@@ -388,7 +386,7 @@ body .modal {
 
 /*** SWIPE LIST OVERRIDES **/
 .swipe-action__leading {
-    background-color: var(--azul);
+    background-color: var(--verde);
     color: var(--blanco);
     margin-bottom: 2rem;
 }
